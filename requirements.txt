@@ -1,0 +1,20 @@
+# Telegram Sticker & Emoji Studio
+# Зависимости проекта. Python 3.12+
+
+# Telegram Bot API фреймворк.
+# 3.34+ поддерживает официальные стили inline-кнопок (primary/success/danger).
+aiogram>=3.34,<4.0
+
+# Обработка изображений
+Pillow>=10.1
+
+# Асинхронная SQLite и файловые операции
+aiosqlite>=0.19
+aiofiles>=23.2
+
+# Рендер TGS (Lottie) в кадры и GIF
+pyrlottie>=2024.0.1
+
+# Резервный статический FFmpeg, если в системе нет своего ffmpeg.
+# Можно удалить, если FFmpeg установлен в ОС (apt install ffmpeg).
+imageio-ffmpeg>=0.4.9
